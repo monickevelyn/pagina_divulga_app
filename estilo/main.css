@@ -1,0 +1,59 @@
+#bloco1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.header-bloco1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+#bloco1 p {
+    max-width: 300px;
+}
+
+#bloco1 button {
+    border: 2px solid black;
+    background-color: white;
+    width: 160px;
+}
+
+figure img {
+    width: 350px;
+}
+
+#bloco2{
+    background-color: rgb(28, 27, 27);
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 10px;
+}
+
+#bloco3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 228, 228);
+    row-gap: 10px;
+}
+
+.celular-img img {
+    width: 240px;
+    padding: 30px;
+}
+
+#bloco3 button {
+    background-color: rgb(28, 27, 27);
+    color: white;
+    padding: 10px;
+}

@@ -1,0 +1,31 @@
+@media screen and (max-width: 760px){
+    #bloco1 {
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    #bloco1 p {
+        max-width: 380px;
+    }
+    
+    figure img {
+        width: 300px;
+    }
+    
+    #bloco2{
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 460px){    
+    #bloco1 h1 {
+        max-width: 360px;
+    }
+}
